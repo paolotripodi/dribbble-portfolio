@@ -73,7 +73,7 @@
 								            }, 'slow', function () {
 								            	$('header h1').removeClass('first-sentence');
 								            	$('header h1').addClass('second-sentence');
-								                $('header h1 span').html('MA in Visual design, designs in Sketch3, masters the Adobe CS.<br />Writes HTML5, SASS and JQuery, but only in Espresso.<br/>Speaks Italian and English.');
+								                $('header h1 span').html('MA in Visual design, designs in Sketch3, masters the Adobe CS.<br />Writes HTML5, SASS and JQuery, but only with Espresso.<br/>Speaks Italian and English.');
 								            		$('.about-me').delay( 200 ).animate({
 								                    opacity: 1,
 								                }, 'slow', function(){
