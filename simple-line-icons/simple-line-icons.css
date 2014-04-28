@@ -1,0 +1,849 @@
+@font-face {
+  font-family: 'Simple-Line-Icons';
+  src: url("fonts/Simple-Line-Icons.eot");
+  src: url("fonts/Simple-Line-Icons.eot?#iefix") format("embedded-opentype"), url("fonts/Simple-Line-Icons.woff") format("woff"), url("fonts/Simple-Line-Icons.ttf") format("truetype"), url("fonts/Simple-Line-Icons.svg#Simple-Line-Icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/* line 13, simple-line-icons.scss */
+[data-icon]:before {
+  font-family: 'Simple-Line-Icons';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+/* line 31, simple-line-icons.scss */
+.icon-user-female, .icon-user-follow, .icon-user-following, .icon-user-unfollow, .icon-trophy, .icon-screen-smartphone, .icon-screen-desktop, .icon-plane, .icon-notebook, .icon-moustache, .icon-mouse, .icon-magnet, .icon-energy, .icon-emoticon-smile, .icon-disc, .icon-cursor-move, .icon-crop, .icon-credit-card, .icon-chemistry, .icon-user, .icon-speedometer, .icon-social-youtube, .icon-social-twitter, .icon-social-tumblr, .icon-social-facebook, .icon-social-dropbox, .icon-social-dribbble, .icon-shield, .icon-screen-tablet, .icon-magic-wand, .icon-hourglass, .icon-graduation, .icon-ghost, .icon-game-controller, .icon-fire, .icon-eyeglasses, .icon-envelope-open, .icon-envelope-letter, .icon-bell, .icon-badge, .icon-anchor, .icon-wallet, .icon-vector, .icon-speech, .icon-puzzle, .icon-printer, .icon-present, .icon-playlist, .icon-pin, .icon-picture, .icon-map, .icon-layers, .icon-handbag, .icon-globe-alt, .icon-globe, .icon-frame, .icon-folder-alt, .icon-film, .icon-feed, .icon-earphones-alt, .icon-earphones, .icon-drop, .icon-drawer, .icon-docs, .icon-directions, .icon-direction, .icon-diamond, .icon-cup, .icon-compass, .icon-call-out, .icon-call-in, .icon-call-end, .icon-calculator, .icon-bubbles, .icon-briefcase, .icon-book-open, .icon-basket-loaded, .icon-basket, .icon-bag, .icon-action-undo, .icon-action-redo, .icon-wrench, .icon-umbrella, .icon-trash, .icon-tag, .icon-support, .icon-size-fullscreen, .icon-size-actual, .icon-shuffle, .icon-share-alt, .icon-share, .icon-rocket, .icon-question, .icon-pie-chart, .icon-pencil, .icon-note, .icon-music-tone-alt, .icon-music-tone, .icon-microphone, .icon-loop, .icon-logout, .icon-login, .icon-list, .icon-like, .icon-home, .icon-grid, .icon-graph, .icon-equalizer, .icon-dislike, .icon-cursor, .icon-control-start, .icon-control-rewind, .icon-control-play, .icon-control-pause, .icon-control-forward, .icon-control-end, .icon-calendar, .icon-bulb, .icon-bar-chart, .icon-arrow-up, .icon-arrow-right, .icon-arrow-left, .icon-arrow-down, .icon-ban, .icon-bubble, .icon-camcorder, .icon-camera, .icon-check, .icon-clock, .icon-close, .icon-cloud-download, .icon-cloud-upload, .icon-doc, .icon-envelope, .icon-eye, .icon-flag, .icon-folder, .icon-heart, .icon-info, .icon-key, .icon-link, .icon-lock, .icon-lock-open, .icon-magnifier, .icon-magnifier-add, .icon-magnifier-remove, .icon-paper-clip, .icon-paper-plane, .icon-plus, .icon-pointer, .icon-power, .icon-refresh, .icon-reload, .icon-settings, .icon-star, .icon-symbol-female, .icon-symbol-male, .icon-target, .icon-volume-1, .icon-volume-2, .icon-volume-off, .icon-users {
+  font-family: 'Simple-Line-Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 41, simple-line-icons.scss */
+.icon-user-female:before {
+  content: "\e000";
+}
+
+/* line 44, simple-line-icons.scss */
+.icon-user-follow:before {
+  content: "\e002";
+}
+
+/* line 47, simple-line-icons.scss */
+.icon-user-following:before {
+  content: "\e003";
+}
+
+/* line 50, simple-line-icons.scss */
+.icon-user-unfollow:before {
+  content: "\e004";
+}
+
+/* line 53, simple-line-icons.scss */
+.icon-trophy:before {
+  content: "\e006";
+}
+
+/* line 56, simple-line-icons.scss */
+.icon-screen-smartphone:before {
+  content: "\e010";
+}
+
+/* line 59, simple-line-icons.scss */
+.icon-screen-desktop:before {
+  content: "\e011";
+}
+
+/* line 62, simple-line-icons.scss */
+.icon-plane:before {
+  content: "\e012";
+}
+
+/* line 65, simple-line-icons.scss */
+.icon-notebook:before {
+  content: "\e013";
+}
+
+/* line 68, simple-line-icons.scss */
+.icon-moustache:before {
+  content: "\e014";
+}
+
+/* line 71, simple-line-icons.scss */
+.icon-mouse:before {
+  content: "\e015";
+}
+
+/* line 74, simple-line-icons.scss */
+.icon-magnet:before {
+  content: "\e016";
+}
+
+/* line 77, simple-line-icons.scss */
+.icon-energy:before {
+  content: "\e020";
+}
+
+/* line 80, simple-line-icons.scss */
+.icon-emoticon-smile:before {
+  content: "\e021";
+}
+
+/* line 83, simple-line-icons.scss */
+.icon-disc:before {
+  content: "\e022";
+}
+
+/* line 86, simple-line-icons.scss */
+.icon-cursor-move:before {
+  content: "\e023";
+}
+
+/* line 89, simple-line-icons.scss */
+.icon-crop:before {
+  content: "\e024";
+}
+
+/* line 92, simple-line-icons.scss */
+.icon-credit-card:before {
+  content: "\e025";
+}
+
+/* line 95, simple-line-icons.scss */
+.icon-chemistry:before {
+  content: "\e026";
+}
+
+/* line 98, simple-line-icons.scss */
+.icon-user:before {
+  content: "\e005";
+}
+
+/* line 101, simple-line-icons.scss */
+.icon-speedometer:before {
+  content: "\e007";
+}
+
+/* line 104, simple-line-icons.scss */
+.icon-social-youtube:before {
+  content: "\e008";
+}
+
+/* line 107, simple-line-icons.scss */
+.icon-social-twitter:before {
+  content: "\e009";
+}
+
+/* line 110, simple-line-icons.scss */
+.icon-social-tumblr:before {
+  content: "\e00a";
+}
+
+/* line 113, simple-line-icons.scss */
+.icon-social-facebook:before {
+  content: "\e00b";
+}
+
+/* line 116, simple-line-icons.scss */
+.icon-social-dropbox:before {
+  content: "\e00c";
+}
+
+/* line 119, simple-line-icons.scss */
+.icon-social-dribbble:before {
+  content: "\e00d";
+}
+
+/* line 122, simple-line-icons.scss */
+.icon-shield:before {
+  content: "\e00e";
+}
+
+/* line 125, simple-line-icons.scss */
+.icon-screen-tablet:before {
+  content: "\e00f";
+}
+
+/* line 128, simple-line-icons.scss */
+.icon-magic-wand:before {
+  content: "\e017";
+}
+
+/* line 131, simple-line-icons.scss */
+.icon-hourglass:before {
+  content: "\e018";
+}
+
+/* line 134, simple-line-icons.scss */
+.icon-graduation:before {
+  content: "\e019";
+}
+
+/* line 137, simple-line-icons.scss */
+.icon-ghost:before {
+  content: "\e01a";
+}
+
+/* line 140, simple-line-icons.scss */
+.icon-game-controller:before {
+  content: "\e01b";
+}
+
+/* line 143, simple-line-icons.scss */
+.icon-fire:before {
+  content: "\e01c";
+}
+
+/* line 146, simple-line-icons.scss */
+.icon-eyeglasses:before {
+  content: "\e01d";
+}
+
+/* line 149, simple-line-icons.scss */
+.icon-envelope-open:before {
+  content: "\e01e";
+}
+
+/* line 152, simple-line-icons.scss */
+.icon-envelope-letter:before {
+  content: "\e01f";
+}
+
+/* line 155, simple-line-icons.scss */
+.icon-bell:before {
+  content: "\e027";
+}
+
+/* line 158, simple-line-icons.scss */
+.icon-badge:before {
+  content: "\e028";
+}
+
+/* line 161, simple-line-icons.scss */
+.icon-anchor:before {
+  content: "\e029";
+}
+
+/* line 164, simple-line-icons.scss */
+.icon-wallet:before {
+  content: "\e02a";
+}
+
+/* line 167, simple-line-icons.scss */
+.icon-vector:before {
+  content: "\e02b";
+}
+
+/* line 170, simple-line-icons.scss */
+.icon-speech:before {
+  content: "\e02c";
+}
+
+/* line 173, simple-line-icons.scss */
+.icon-puzzle:before {
+  content: "\e02d";
+}
+
+/* line 176, simple-line-icons.scss */
+.icon-printer:before {
+  content: "\e02e";
+}
+
+/* line 179, simple-line-icons.scss */
+.icon-present:before {
+  content: "\e02f";
+}
+
+/* line 182, simple-line-icons.scss */
+.icon-playlist:before {
+  content: "\e030";
+}
+
+/* line 185, simple-line-icons.scss */
+.icon-pin:before {
+  content: "\e031";
+}
+
+/* line 188, simple-line-icons.scss */
+.icon-picture:before {
+  content: "\e032";
+}
+
+/* line 191, simple-line-icons.scss */
+.icon-map:before {
+  content: "\e033";
+}
+
+/* line 194, simple-line-icons.scss */
+.icon-layers:before {
+  content: "\e034";
+}
+
+/* line 197, simple-line-icons.scss */
+.icon-handbag:before {
+  content: "\e035";
+}
+
+/* line 200, simple-line-icons.scss */
+.icon-globe-alt:before {
+  content: "\e036";
+}
+
+/* line 203, simple-line-icons.scss */
+.icon-globe:before {
+  content: "\e037";
+}
+
+/* line 206, simple-line-icons.scss */
+.icon-frame:before {
+  content: "\e038";
+}
+
+/* line 209, simple-line-icons.scss */
+.icon-folder-alt:before {
+  content: "\e039";
+}
+
+/* line 212, simple-line-icons.scss */
+.icon-film:before {
+  content: "\e03a";
+}
+
+/* line 215, simple-line-icons.scss */
+.icon-feed:before {
+  content: "\e03b";
+}
+
+/* line 218, simple-line-icons.scss */
+.icon-earphones-alt:before {
+  content: "\e03c";
+}
+
+/* line 221, simple-line-icons.scss */
+.icon-earphones:before {
+  content: "\e03d";
+}
+
+/* line 224, simple-line-icons.scss */
+.icon-drop:before {
+  content: "\e03e";
+}
+
+/* line 227, simple-line-icons.scss */
+.icon-drawer:before {
+  content: "\e03f";
+}
+
+/* line 230, simple-line-icons.scss */
+.icon-docs:before {
+  content: "\e040";
+}
+
+/* line 233, simple-line-icons.scss */
+.icon-directions:before {
+  content: "\e041";
+}
+
+/* line 236, simple-line-icons.scss */
+.icon-direction:before {
+  content: "\e042";
+}
+
+/* line 239, simple-line-icons.scss */
+.icon-diamond:before {
+  content: "\e043";
+}
+
+/* line 242, simple-line-icons.scss */
+.icon-cup:before {
+  content: "\e044";
+}
+
+/* line 245, simple-line-icons.scss */
+.icon-compass:before {
+  content: "\e045";
+}
+
+/* line 248, simple-line-icons.scss */
+.icon-call-out:before {
+  content: "\e046";
+}
+
+/* line 251, simple-line-icons.scss */
+.icon-call-in:before {
+  content: "\e047";
+}
+
+/* line 254, simple-line-icons.scss */
+.icon-call-end:before {
+  content: "\e048";
+}
+
+/* line 257, simple-line-icons.scss */
+.icon-calculator:before {
+  content: "\e049";
+}
+
+/* line 260, simple-line-icons.scss */
+.icon-bubbles:before {
+  content: "\e04a";
+}
+
+/* line 263, simple-line-icons.scss */
+.icon-briefcase:before {
+  content: "\e04b";
+}
+
+/* line 266, simple-line-icons.scss */
+.icon-book-open:before {
+  content: "\e04c";
+}
+
+/* line 269, simple-line-icons.scss */
+.icon-basket-loaded:before {
+  content: "\e04d";
+}
+
+/* line 272, simple-line-icons.scss */
+.icon-basket:before {
+  content: "\e04e";
+}
+
+/* line 275, simple-line-icons.scss */
+.icon-bag:before {
+  content: "\e04f";
+}
+
+/* line 278, simple-line-icons.scss */
+.icon-action-undo:before {
+  content: "\e050";
+}
+
+/* line 281, simple-line-icons.scss */
+.icon-action-redo:before {
+  content: "\e051";
+}
+
+/* line 284, simple-line-icons.scss */
+.icon-wrench:before {
+  content: "\e052";
+}
+
+/* line 287, simple-line-icons.scss */
+.icon-umbrella:before {
+  content: "\e053";
+}
+
+/* line 290, simple-line-icons.scss */
+.icon-trash:before {
+  content: "\e054";
+}
+
+/* line 293, simple-line-icons.scss */
+.icon-tag:before {
+  content: "\e055";
+}
+
+/* line 296, simple-line-icons.scss */
+.icon-support:before {
+  content: "\e056";
+}
+
+/* line 299, simple-line-icons.scss */
+.icon-size-fullscreen:before {
+  content: "\e057";
+}
+
+/* line 302, simple-line-icons.scss */
+.icon-size-actual:before {
+  content: "\e058";
+}
+
+/* line 305, simple-line-icons.scss */
+.icon-shuffle:before {
+  content: "\e059";
+}
+
+/* line 308, simple-line-icons.scss */
+.icon-share-alt:before {
+  content: "\e05a";
+}
+
+/* line 311, simple-line-icons.scss */
+.icon-share:before {
+  content: "\e05b";
+}
+
+/* line 314, simple-line-icons.scss */
+.icon-rocket:before {
+  content: "\e05c";
+}
+
+/* line 317, simple-line-icons.scss */
+.icon-question:before {
+  content: "\e05d";
+}
+
+/* line 320, simple-line-icons.scss */
+.icon-pie-chart:before {
+  content: "\e05e";
+}
+
+/* line 323, simple-line-icons.scss */
+.icon-pencil:before {
+  content: "\e05f";
+}
+
+/* line 326, simple-line-icons.scss */
+.icon-note:before {
+  content: "\e060";
+}
+
+/* line 329, simple-line-icons.scss */
+.icon-music-tone-alt:before {
+  content: "\e061";
+}
+
+/* line 332, simple-line-icons.scss */
+.icon-music-tone:before {
+  content: "\e062";
+}
+
+/* line 335, simple-line-icons.scss */
+.icon-microphone:before {
+  content: "\e063";
+}
+
+/* line 338, simple-line-icons.scss */
+.icon-loop:before {
+  content: "\e064";
+}
+
+/* line 341, simple-line-icons.scss */
+.icon-logout:before {
+  content: "\e065";
+}
+
+/* line 344, simple-line-icons.scss */
+.icon-login:before {
+  content: "\e066";
+}
+
+/* line 347, simple-line-icons.scss */
+.icon-list:before {
+  content: "\e067";
+}
+
+/* line 350, simple-line-icons.scss */
+.icon-like:before {
+  content: "\e068";
+}
+
+/* line 353, simple-line-icons.scss */
+.icon-home:before {
+  content: "\e069";
+}
+
+/* line 356, simple-line-icons.scss */
+.icon-grid:before {
+  content: "\e06a";
+}
+
+/* line 359, simple-line-icons.scss */
+.icon-graph:before {
+  content: "\e06b";
+}
+
+/* line 362, simple-line-icons.scss */
+.icon-equalizer:before {
+  content: "\e06c";
+}
+
+/* line 365, simple-line-icons.scss */
+.icon-dislike:before {
+  content: "\e06d";
+}
+
+/* line 368, simple-line-icons.scss */
+.icon-cursor:before {
+  content: "\e06e";
+}
+
+/* line 371, simple-line-icons.scss */
+.icon-control-start:before {
+  content: "\e06f";
+}
+
+/* line 374, simple-line-icons.scss */
+.icon-control-rewind:before {
+  content: "\e070";
+}
+
+/* line 377, simple-line-icons.scss */
+.icon-control-play:before {
+  content: "\e071";
+}
+
+/* line 380, simple-line-icons.scss */
+.icon-control-pause:before {
+  content: "\e072";
+}
+
+/* line 383, simple-line-icons.scss */
+.icon-control-forward:before {
+  content: "\e073";
+}
+
+/* line 386, simple-line-icons.scss */
+.icon-control-end:before {
+  content: "\e074";
+}
+
+/* line 389, simple-line-icons.scss */
+.icon-calendar:before {
+  content: "\e075";
+}
+
+/* line 392, simple-line-icons.scss */
+.icon-bulb:before {
+  content: "\e076";
+}
+
+/* line 395, simple-line-icons.scss */
+.icon-bar-chart:before {
+  content: "\e077";
+}
+
+/* line 398, simple-line-icons.scss */
+.icon-arrow-up:before {
+  content: "\e078";
+}
+
+/* line 401, simple-line-icons.scss */
+.icon-arrow-right:before {
+  content: "\e079";
+}
+
+/* line 404, simple-line-icons.scss */
+.icon-arrow-left:before {
+  content: "\e07a";
+}
+
+/* line 407, simple-line-icons.scss */
+.icon-arrow-down:before {
+  content: "\e07b";
+}
+
+/* line 410, simple-line-icons.scss */
+.icon-ban:before {
+  content: "\e07c";
+}
+
+/* line 413, simple-line-icons.scss */
+.icon-bubble:before {
+  content: "\e07d";
+}
+
+/* line 416, simple-line-icons.scss */
+.icon-camcorder:before {
+  content: "\e07e";
+}
+
+/* line 419, simple-line-icons.scss */
+.icon-camera:before {
+  content: "\e07f";
+}
+
+/* line 422, simple-line-icons.scss */
+.icon-check:before {
+  content: "\e080";
+}
+
+/* line 425, simple-line-icons.scss */
+.icon-clock:before {
+  content: "\e081";
+}
+
+/* line 428, simple-line-icons.scss */
+.icon-close:before {
+  content: "\e082";
+}
+
+/* line 431, simple-line-icons.scss */
+.icon-cloud-download:before {
+  content: "\e083";
+}
+
+/* line 434, simple-line-icons.scss */
+.icon-cloud-upload:before {
+  content: "\e084";
+}
+
+/* line 437, simple-line-icons.scss */
+.icon-doc:before {
+  content: "\e085";
+}
+
+/* line 440, simple-line-icons.scss */
+.icon-envelope:before {
+  content: "\e086";
+}
+
+/* line 443, simple-line-icons.scss */
+.icon-eye:before {
+  content: "\e087";
+}
+
+/* line 446, simple-line-icons.scss */
+.icon-flag:before {
+  content: "\e088";
+}
+
+/* line 449, simple-line-icons.scss */
+.icon-folder:before {
+  content: "\e089";
+}
+
+/* line 452, simple-line-icons.scss */
+.icon-heart:before {
+  content: "\e08a";
+}
+
+/* line 455, simple-line-icons.scss */
+.icon-info:before {
+  content: "\e08b";
+}
+
+/* line 458, simple-line-icons.scss */
+.icon-key:before {
+  content: "\e08c";
+}
+
+/* line 461, simple-line-icons.scss */
+.icon-link:before {
+  content: "\e08d";
+}
+
+/* line 464, simple-line-icons.scss */
+.icon-lock:before {
+  content: "\e08e";
+}
+
+/* line 467, simple-line-icons.scss */
+.icon-lock-open:before {
+  content: "\e08f";
+}
+
+/* line 470, simple-line-icons.scss */
+.icon-magnifier:before {
+  content: "\e090";
+}
+
+/* line 473, simple-line-icons.scss */
+.icon-magnifier-add:before {
+  content: "\e091";
+}
+
+/* line 476, simple-line-icons.scss */
+.icon-magnifier-remove:before {
+  content: "\e092";
+}
+
+/* line 479, simple-line-icons.scss */
+.icon-paper-clip:before {
+  content: "\e093";
+}
+
+/* line 482, simple-line-icons.scss */
+.icon-paper-plane:before {
+  content: "\e094";
+}
+
+/* line 485, simple-line-icons.scss */
+.icon-plus:before {
+  content: "\e095";
+}
+
+/* line 488, simple-line-icons.scss */
+.icon-pointer:before {
+  content: "\e096";
+}
+
+/* line 491, simple-line-icons.scss */
+.icon-power:before {
+  content: "\e097";
+}
+
+/* line 494, simple-line-icons.scss */
+.icon-refresh:before {
+  content: "\e098";
+}
+
+/* line 497, simple-line-icons.scss */
+.icon-reload:before {
+  content: "\e099";
+}
+
+/* line 500, simple-line-icons.scss */
+.icon-settings:before {
+  content: "\e09a";
+}
+
+/* line 503, simple-line-icons.scss */
+.icon-star:before {
+  content: "\e09b";
+}
+
+/* line 506, simple-line-icons.scss */
+.icon-symbol-female:before {
+  content: "\e09c";
+}
+
+/* line 509, simple-line-icons.scss */
+.icon-symbol-male:before {
+  content: "\e09d";
+}
+
+/* line 512, simple-line-icons.scss */
+.icon-target:before {
+  content: "\e09e";
+}
+
+/* line 515, simple-line-icons.scss */
+.icon-volume-1:before {
+  content: "\e09f";
+}
+
+/* line 518, simple-line-icons.scss */
+.icon-volume-2:before {
+  content: "\e0a0";
+}
+
+/* line 521, simple-line-icons.scss */
+.icon-volume-off:before {
+  content: "\e0a1";
+}
+
+/* line 524, simple-line-icons.scss */
+.icon-users:before {
+  content: "\e001";
+}
