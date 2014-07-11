@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta Stuff -->
+    <!-- Meta Stuff commento -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!--favicon-->
-    <link rel="icon"type="image/png" href="http://paolotripodi.com/nu/img/profilepict.jpg">
+    <link rel="icon" type="image/png" href="http://paolotripodi.com/nu/img/profilepict.jpg">
     <title>Paolo Tripodi - Digital Designer</title>
     <meta name="author" content="Paolo Tripodi" />
     <meta name="copyright" content="© Paolo Tripodi - 2014" />
@@ -80,7 +80,7 @@
         <a href="http://lnkd.in/bzWHKsY" target="_blank" class='social-linkedin'></a>
         <a href="mailto:mail@paolotripodi.com" target="_blank" class='social-mail'></a>
       </div>
-      <p>@2014 Paolo Tripodi  &mdash; <a class="button" onClick='window.location="view-source:" + window.location.href'>View Source</a> </p>
+      <p>@2014 Paolo Tripodi  &mdash; <a class="button" onClick='window.location="view-source:" + window.location.href'>View Source</a> <br />Like this page? <a href="https://github.com/paolotripodi/dribbble-portfolio" target="_blank">Get it on Github</a> </p>
     </footer>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -93,8 +93,23 @@
     <!--animate scroll-->
     <script src="js/animatescroll.js"></script>
     <!--grid-a-licious-->
-    <script src="http://www.zetalab.com/wp/wp-content/themes/zeta/js/jquery.grid-a-licious.js"></script>
+    <script src="js/jquery.grid-a-licious.min.js"></script>
     <!--portfolio-->
     <script src="js/portfolio.js"></script>   
+    <!--google analytics-->
+    <script type="text/javascript">
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37420520-1']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+    
   </body>
 </html>
